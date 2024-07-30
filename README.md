@@ -1,6 +1,4 @@
-# revisao
-revisão para
-
+# GIT/GITHUB
 
 # Repositorio
 
@@ -29,7 +27,7 @@ Ferramenta de software para versionamento/controle de versões de um projeto qua
 `git status`: Mostra para o usuário o estado atual (as mudanças feitas/selecionadas) do galho onde o usuário está trabalhando
 
 `git branch <nome-do-galho>`: Cria um novo ramo/galho/branch de desenvolvimento no repositório atual
-
+pull
 `git branch`: Lista os galhos do repositório, e também mostra em qual galho você está.
 
 `git checkout <nome-do-galho>`: Para mudar de galho atual (ir para outro galho de desenvolvimento).
@@ -43,5 +41,56 @@ Ferramenta de software para versionamento/controle de versões de um projeto qua
 `git init`: Cria um repositório local (repo inicial denominado master, não é igual ao Github que cria como main)
 
 `git merge <nome-do-galho>`: "Junta"/merge as alterações do galho indicado no galho atual
+
+# Pull Request
+
+Ele é um pedido de merge dentro do repositório remoto (Github), se caso esse pedido de merge for aceito, resultará no merge dos galhos envolvidos.
+
+# FUNÇÕES/MÉTODOS/PROCEDIMENTOS
+
+Uma função evita a repetição de código, pois sempre que aquele código é necessário, ele pode ser invocado/chamado a partir da função. Deixa também o código mais organizado e significativo.
+
+Um bloco de código nomeado, que pode ou não conter parâmetros/argumentos e pode ou não conter um retorno.
+
+# Parâmetro
+
+É a variável que quem invoca a função dispoẽ para ela, o parâmetro/argumento modifica o comportamento da função.
+
+# Retorno
+
+É o resultado (valor) que função retorna para quem a invocou
+
+# function declaration
+
+f1() // invoco a função antes de declará-la / funciona
+
+function f1(<os parametros vem aqui>) { // sofre hosting - sofre o elevamento
+    //qualquer código
+    return // o retorno sempre é opcional e pode ser de qualquer tipo
+}
+
+# function expression
+
+f2() // vai quebrar o código, acessando uma variável antes de defini-la
+
+// função anonima
+const f2 = function(<os parametros vem aqui>) { 
+    //qualquer código
+    return // o retorno sempre é opcional e pode ser de qualquer tipo
+}
+
+f3()
+
+// arrow/lambda function
+const f3 = (<os parametros vem aqui>) => {
+     //qualquer código
+    return // o retorno sempre é opcional e pode ser de qualquer tipo
+}
+
+// se apenas houver um parametro, pode-se remover os parenteses
+// também se houver apenas uma linha de código, pode-se remover a declaração do bloco
+
+const f4 = arg => console.log(arg)
+
 
 
